@@ -1,0 +1,4 @@
+// vars/myBasicStep.groovy    - Must be lower-case or "camelCased" in order to be loaded properly by Pipeline!!!.
+def call(String stepName = 'new step') {
+   echo "Hello, I'm ${stepName}."
+}
